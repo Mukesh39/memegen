@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,62 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App h2
+{
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.template
+{
+  width: 33.33%;
+  display: inline-block;
+  border: 10px solid transparent;
+  cursor: pointer;
+}
+
+.template .image
+{
+ width: 100%;
+ height: 500px;
+border: 2px solid black;
+border-radius: 5px;
+}
+
+.meme{
+  text-align: center;
+}
+.meme img {
+  width : auto ; 
+  height: 500px;
+  border: 1px solid black;
+}
+
+
+.meme input {
+  
+margin: 10px;
+padding: 5px;
+
+}
+
+.meme button
+{
+  margin: 10px;
+  padding : 5px;
+  width: 140px;
+  height: 40px;
 }
